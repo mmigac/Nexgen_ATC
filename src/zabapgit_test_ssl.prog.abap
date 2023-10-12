@@ -40,7 +40,7 @@ SELECTION-SCREEN SKIP.
 SELECTION-SCREEN BEGIN OF BLOCK sc_serv WITH FRAME TITLE sc_titl2.
   PARAMETERS:
     p_url1 TYPE string LOWER CASE DEFAULT 'https://github.com' OBLIGATORY,
-    p_url2 TYPE string LOWER CASE DEFAULT 'https://api.github.com',
+    p_url2 TYPE string LOWER CASE, " removed
     p_id   TYPE strustssl-applic DEFAULT 'ANONYM' OBLIGATORY.
 * api.github.com is used when pushing code back to github
 SELECTION-SCREEN END OF BLOCK sc_serv.
